@@ -10,6 +10,7 @@
 		17BECC171E9AE142007F64AB /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BECC161E9AE142007F64AB /* Todo.swift */; };
 		17BECC191E9AED72007F64AB /* Identity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BECC181E9AED72007F64AB /* Identity.swift */; };
 		17BECC1B1E9AED8D007F64AB /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BECC1A1E9AED8D007F64AB /* TodoList.swift */; };
+		17BECC1D1E9AF4E3007F64AB /* NewTodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BECC1C1E9AF4E3007F64AB /* NewTodoViewController.swift */; };
 		1AB4B3B61D904C5F008DD0F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB4B3B51D904C5F008DD0F0 /* AppDelegate.swift */; };
 		1AB4B3B81D904C5F008DD0F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB4B3B71D904C5F008DD0F0 /* ViewController.swift */; };
 		1AB4B3BB1D904C5F008DD0F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AB4B3B91D904C5F008DD0F0 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		17BECC161E9AE142007F64AB /* Todo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		17BECC181E9AED72007F64AB /* Identity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identity.swift; sourceTree = "<group>"; };
 		17BECC1A1E9AED8D007F64AB /* TodoList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
+		17BECC1C1E9AF4E3007F64AB /* NewTodoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTodoViewController.swift; sourceTree = "<group>"; };
 		1AB4B3B21D904C5F008DD0F0 /* CFS3ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFS3ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AB4B3B51D904C5F008DD0F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AB4B3B71D904C5F008DD0F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 		1AB4B3CA1D9054BE008DD0F0 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				17BECC1C1E9AF4E3007F64AB /* NewTodoViewController.swift */,
 				1AB4B3B71D904C5F008DD0F0 /* ViewController.swift */,
 			);
 			name = controllers;
@@ -139,7 +142,6 @@
 				TargetAttributes = {
 					1AB4B3B11D904C5F008DD0F0 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = CX2BVPPB63;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -181,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17BECC1B1E9AED8D007F64AB /* TodoList.swift in Sources */,
+				17BECC1D1E9AF4E3007F64AB /* NewTodoViewController.swift in Sources */,
 				1AB4B3B81D904C5F008DD0F0 /* ViewController.swift in Sources */,
 				17BECC171E9AE142007F64AB /* Todo.swift in Sources */,
 				1AB4B3B61D904C5F008DD0F0 /* AppDelegate.swift in Sources */,
@@ -307,7 +310,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = CX2BVPPB63;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CFS3ToDoList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adamwallraff.CFS3ToDoList;
@@ -320,7 +323,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = CX2BVPPB63;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CFS3ToDoList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adamwallraff.CFS3ToDoList;
