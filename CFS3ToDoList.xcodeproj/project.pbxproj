@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17BECC171E9AE142007F64AB /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BECC161E9AE142007F64AB /* Todo.swift */; };
 		1AB4B3B61D904C5F008DD0F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB4B3B51D904C5F008DD0F0 /* AppDelegate.swift */; };
 		1AB4B3B81D904C5F008DD0F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB4B3B71D904C5F008DD0F0 /* ViewController.swift */; };
 		1AB4B3BB1D904C5F008DD0F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AB4B3B91D904C5F008DD0F0 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17BECC161E9AE142007F64AB /* Todo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		1AB4B3B21D904C5F008DD0F0 /* CFS3ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFS3ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AB4B3B51D904C5F008DD0F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AB4B3B71D904C5F008DD0F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17BECC131E9AE114007F64AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				17BECC161E9AE142007F64AB /* Todo.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		1AB4B3A91D904C5F008DD0F0 = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +65,7 @@
 		1AB4B3B41D904C5F008DD0F0 /* CFS3ToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				17BECC131E9AE114007F64AB /* View */,
 				1AB4B3C81D904E74008DD0F0 /* Swift3Workshop.playground */,
 				1AB4B3CA1D9054BE008DD0F0 /* controllers */,
 				1AB4B3C91D9054B0008DD0F0 /* storyboards */,
@@ -164,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AB4B3B81D904C5F008DD0F0 /* ViewController.swift in Sources */,
+				17BECC171E9AE142007F64AB /* Todo.swift in Sources */,
 				1AB4B3B61D904C5F008DD0F0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
