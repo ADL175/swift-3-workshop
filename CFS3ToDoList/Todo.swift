@@ -8,17 +8,18 @@
 
 import Foundation
 
+
+
 class Todo{
     
     var text: String
     
+    var identifier: String
+    
     init(text: String) {
         self.text = text
+        self.identifier = UUID().uuidString
     }
     
 }
 
-protocol Identity
-{
-    var identifier: String { set get }
-}
